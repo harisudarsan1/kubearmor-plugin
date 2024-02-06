@@ -1,0 +1,9 @@
+{
+  "builders": {
+    "plugin": {
+      "description": "It builds the plugin",
+      "implementation": "./src/",
+      "schema": "./src/schema.json"
+    }
+  }
+}

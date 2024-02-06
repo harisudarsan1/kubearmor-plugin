@@ -1,0 +1,9 @@
+apiVersion: dashboard.k8s.io/v1alpha1
+kind: Plugin
+metadata:
+  name: karmorplugin
+spec:
+  source:
+    configMapRef:
+      name: karmorplugin-src
+    filename: karmorPlugin.js

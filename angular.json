@@ -88,6 +88,20 @@
             ],
             "scripts": []
           }
+        },
+        "plugin-build": {
+          "builder": "./builder:plugin",
+          "options": {
+            "modulePath": "./app/app.module#karmormodule",
+            "pluginName": "karmorPlugin",
+            "outputPath": "dist/plugins",
+            "index": "",
+            "main": "./src/main.ts",
+            "tsConfig": "./tsconfig.app.json",
+            "assets": [],
+            "styles": [],
+            "scripts": []
+          }
         }
       }
     }

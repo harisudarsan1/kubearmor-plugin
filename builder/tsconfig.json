@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "./src",
+    "importHelpers": false,
+    "sourceMap": false,
+    "target": "es6"
+  },
+  "files": [
+    "./src/index.ts"
+  ]
+}
